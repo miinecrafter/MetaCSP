@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tester.css">
+    <title>Rayaan's Website</title>
+</head>
+
+<body>
+    <h1>Hexagon Game</h1>
+
+    <img id="hexagon" class="hexagon" src="whiteHexagon.png">
+
+
+    <script>
+var hexagonWidth = .5;
+var verticalSpacing = 150; // Adjust the vertical spacing as needed
+
+// Function to create a cloned hexagon
+function createClonedHexagon(id, left) {
+    var clonedImage = document.createElement("img");
+    clonedImage.src = "whiteHexagon.png";
+    clonedImage.classList.add("cloned-hexagon");
+    clonedImage.id = id;
+
+    clonedImage.style.position = "absolute";
+    clonedImage.style.left = left + "px";
+    clonedImage.style.top = "0px"; // Adjust the top position as needed
+
+    // Attach click event to each cloned hexagon individually
+    clonedImage.addEventListener("click", function () {
+        // Toggle the image source of the clicked hexagon
+        if (this.src.endsWith("whiteHexagon.png")) {
+            this.src = "purpleHexagon.png";
+        } else {
+            this.src = "whiteHexagon.png";
+        }
+    });
+
+    document.body.appendChild(clonedImage);
+}
+
+var numberOfDuplicates = 10;
+
+// Create the original hexagon
+createClonedHexagon("hexagon", 0);
+
+// Create cloned hexagons with unique IDs and positions
+for (var i = 1; i <= numberOfDuplicates; i++) {
+    var x = i * (hexagonWidth * 1.5);
+    createClonedHexagon("clonedHexagon" + i, x);
+}
+
+    </script>
+</body>
+
+</html>
