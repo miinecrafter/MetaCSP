@@ -11,6 +11,7 @@ import React, { useState, useEffect } from 'react';
  
 import './Intro.css';
 import JavaGames from '../JavaGames/JavaGames.js';
+import {Fade} from 'react-awesome-reveal';
 
 export default function Intro({scroll}) {
 
