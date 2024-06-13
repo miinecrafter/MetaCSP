@@ -8,7 +8,6 @@ import ElemArt from '../images/ElemArt.jpg';
 import nameWord from '../images/nameWord.jpg';
 
 import React, { useState, useEffect } from 'react';
-import Fade from 'react-reveal/Fade';
  
 import './Intro.css';
 import JavaGames from '../JavaGames/JavaGames.js';
