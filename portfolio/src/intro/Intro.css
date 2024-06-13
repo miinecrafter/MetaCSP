@@ -1,4 +1,4 @@
-  *{padding: 0; margin: 0; border: 0;}
+  *{padding: 0; margin: 0; border: 0; z-index: 1;}
   
   .intro-top{
     position: absolute;
@@ -16,27 +16,20 @@
     font-family: monospace;
     color: rgb(160, 160, 160);
   }
+  .logo-cont{
+    width: 10vw;
+    height: 10vw;
+  }
   .personal-desc{
+    z-index: 1;
     width: 47vw;
     height: 30vh;
     position: fixed;
-    margin-left: 10vw;
-    margin-top: 48vh;
+    margin-left: 14vw;
+    margin-top: 50vh;
     font-family: monospace;
     color: rgb(130, 130, 130);
-    font-size: 2em;
-    line-height: 1.7em;
-  }
-  .personal-desc-two{
-    width: 43vw;
-    height: 30vh;
-    font-weight: 600;
-    position: fixed;
-    margin-left: 50vw;
-    margin-top: 48vh;
-    font-family: monospace;
-    color: rgb(0, 0, 0);
-    font-size: 2em;
+    font-size: 1.7em;
     line-height: 1.7em;
   }
   .tech-stack{
@@ -53,52 +46,30 @@
   .moving-image{
     opacity: 30%;
     position: absolute;
+    pointer-events: none;
+    z-index: -1;
   }
   .rayHelm{
     margin-top: 150vh;
     margin-left: 50vw;
+    width: 30vw;
+    height: auto;
   }
   .ElemArt{
     margin-top: 50vh;
     margin-left: 10vw;
+    width: 25vw;
+    height: auto;
   }
   .fGrade{
     margin-top: 100vh;
     margin-left: 5vw;
+    width: 30vw;
+    height: auto;
   }
   .nameWord{
     margin-top: 170vh;
     margin-left: 60vw;
-  }
-  .ppex-link{
-    position: absolute;
-    margin-top: 340vh;
-    width: 40vw;
-    text-align: center;
-    font-family: sans-serif;
-    margin-left: 5vw;
-  }
-  .ppex-link h1, .hexGame-link h1{
-    font-size: 7em;
-    margin-bottom: 5vh;
-  }
-  a:link{
-    color: black;
-  }
-  .ppex-link h1:hover{
-    color: black;
-  }
-  a:active{
-    color: black;
-  }
-  a:visited{
-    color: black;
-  }
-  .hexGame-link{
-    position: absolute;
-    margin-top: 440vh;
-    width: 40vw;
-    text-align: center;
-    font-family: sans-serif;
-    margin-left: 5vw;
+    width: 25vw;
+    height: auto;
   }

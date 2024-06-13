@@ -1,0 +1,21 @@
+*{padding: 0; margin: 0; border: 0;}
+.contact-cont{
+    background-color: #CFE8EF;
+    margin-top: 25vh;
+    height: 40vh;
+}
+.contact{
+    margin-left: 10vw;
+    width: 80vw;
+}
+.title{
+    font-family: monospace;
+    font-size: 5em;
+    color: rgb(255, 130, 85);
+    margin-bottom: 2vh;
+}
+p:not(.title){
+    font-family: monospace;
+    margin-bottom: 1vh;
+    letter-spacing: 0.08vw;
+}

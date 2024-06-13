@@ -1,0 +1,41 @@
+  .ppex-link{
+    width: 40vw;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 5vw;
+  }
+  .ppex-link h1, .hexGame-link h1{
+    font-size: 7em;
+    margin-bottom: 5vh;
+  }
+  a:link{
+    color: black;
+  }
+  .ppex-link h1:hover{
+    color: black;
+  }
+  a:active{
+    color: black;
+  }
+  a:visited{
+    color: black;
+  }
+  .hexGame-link{
+    width: 40vw;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 5vw;
+  }
+  .hex{
+    width: 25vw;
+    height: auto;
+  }
+  .panic{
+    width: 40vw;
+    height: auto;
+  }
+/* 
+  width: 40vw;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 5vw; */
