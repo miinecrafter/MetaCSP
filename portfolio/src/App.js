@@ -29,7 +29,7 @@ import ImageMover from './Forexpress/ImageMover/ImageMover';
 
 import React, { Component } from "react";
 import ImageFadeIn from "react-image-fade-in";
-import Fade from 'react-reveal/Fade';
+import {Fade} from 'react-awesome-reveal/Fade';
 
 function App() {
 
