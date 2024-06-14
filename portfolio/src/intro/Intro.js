@@ -60,8 +60,20 @@ export default function Intro({scroll}) {
     //   }
     // }, []);
     return (
-      <>
-        <div style={{position: `absolute`, height: '10vh'}}>
+      <div className="total-cont-2">
+        <div className="introduce">
+          <h1 className="intro-top">HI, IM</h1>
+          <h1 className="intro-name">RAYAAN ANSARI</h1>
+        </div>
+        {/* <div className="tech-stack">
+          <Fade duration={3000}>
+            <img src={sqlLogo} style={{width: '10vw', height: '5vw'}} />
+            <img src={expressLogo} className="logo-cont" />
+            <img src={reactLogo} className="logo-cont" />
+            <img src={njsLogo} className="logo-cont" />
+          </Fade>
+        </div> */}
+        <div style={{position: `absolute`, height: '10vh', width: '71vw'}}>
           <img src={fGrade} className="fGrade moving-image" style={{
               transform: `translateY(-${scroll * 3}}px)`,
               position: `relative`
@@ -79,23 +91,12 @@ export default function Intro({scroll}) {
             position: `relative`
           }} />
         </div>
-
-        <h1 className="intro-top">HI, IM</h1>
-        <h1 className="intro-name">RAYAAN ANSARI</h1>
-        <Fade duration={3000}>
-          <div className="tech-stack">
-            <img src={sqlLogo} style={{width: '10vw', height: '5vw'}} />
-            <img src={expressLogo} className="logo-cont" />
-            <img src={reactLogo} className="logo-cont" />
-            <img src={njsLogo} className="logo-cont" />
-          </div>
-        </Fade>
         <p className="personal-desc" style={{
           clipPath: `inset(0 0 ${Math.max(scroll - ((clipHeight / 100) * docHeight), 0)}px 0)`,
           transform: 'clip-path 0.2 ease-out',
         }}>
           {descriptionText}
         </p>
-    </>
+    </div>
     );
 }

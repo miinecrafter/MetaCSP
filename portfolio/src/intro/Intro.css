@@ -1,23 +1,24 @@
   *{padding: 0; margin: 0; border: 0; z-index: 1;}
   
   .intro-top{
-    position: absolute;
+    width: 71vw;
     margin-left: 17vw;
-    margin-top: 13vw;
     font-size: 5vw;
     font-family: monospace;
     color: rgb(80, 80, 80);
   }
   .intro-name{
-    position: absolute;
+    width: 71vw;
     margin-left: 13vw;
-    margin-top: 34vh;
+    margin-top: 1vh;
     font-size: 7vw;
     font-family: monospace;
     color: rgb(160, 160, 160);
   }
+  .introduce{
+    width: 70vw;
+  }
   .logo-cont{
-    border: 1px solid red;
     width: 10vw;
     height: 10vw;
   }
@@ -27,20 +28,16 @@
     height: 30vh;
     position: fixed;
     margin-left: 14vw;
-    margin-top: 50vh;
+    margin-top: 1vh;
     font-family: monospace;
     color: rgb(130, 130, 130);
     font-size: 1.7vw;
     line-height: 2.5vw;
   }
   .tech-stack{
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto, auto, auto, auto;
     
     position: absolute;
     margin-left: 71vw;
-    margin-top: 10vh;
     width: 15vw;
     height: 80vh;
   }

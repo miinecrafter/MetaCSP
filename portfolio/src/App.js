@@ -71,6 +71,14 @@ function App() {
     <div className="page">
       
       <div className="App">
+        <div className="tech-stack">
+          <Fade duration={3000}>
+            <img src={sqlLogo} style={{width: '10vw', height: '5vw'}} />
+            <img src={expressImg} className="logo-cont" />
+            <img src={reactImg} className="logo-cont" />
+            <img src={nodeLogo} className="logo-cont" />
+          </Fade>
+        </div>
         <Intro scroll={scroll} />
       </div>
 
