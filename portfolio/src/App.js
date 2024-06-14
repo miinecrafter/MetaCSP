@@ -55,7 +55,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const nextClip = scroll - ((222 / 100) * docHeight);
+    const nextClip = scroll - ((245 / 100) * docHeight);
     if(nextClip <= 0){
       setDescTwo(.3 * docHeight);
     }

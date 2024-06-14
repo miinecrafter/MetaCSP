@@ -15,8 +15,8 @@ import {Fade} from 'react-awesome-reveal';
 
 export default function Intro({scroll}) {
 
-    const clipHeight = 220;
-    const clipHeightTwo = 222;
+    const clipHeight = 243;
+    const clipHeightTwo = 244;
     const docHeight = document.documentElement.clientHeight;
 
     // const [scroll, setScroll] = useState(0);
