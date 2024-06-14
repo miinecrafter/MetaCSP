@@ -25,7 +25,7 @@
 
 .exp-title, .lim-title{
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }
 
 .personal-desc-two{
@@ -37,8 +37,8 @@
   margin-top: 48vh;
   font-family: monospace;
   color: rgb(0, 0, 0);
-  font-size: 1.7em;
-  line-height: 1.7em;
+  font-size: 1.7vw;
+  line-height: 2.5vw;
   top: 0%;  /* Adjust as needed */
   left: 0%; /* Adjust as needed */
 }
